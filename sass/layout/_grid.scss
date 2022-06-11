@@ -1,0 +1,14 @@
+.row {
+  width: 70vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.column-1 {
+  grid-column: 1/2;
+}
+
+.column-2 {
+  grid-column: 2/3;
+}
