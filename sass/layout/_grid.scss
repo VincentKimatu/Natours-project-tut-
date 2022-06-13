@@ -21,3 +21,11 @@
   grid-template-columns: repeat(4, 1fr);
   column-gap: 4rem;
 }
+
+.row3 {
+  width: 80vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4rem;
+}
