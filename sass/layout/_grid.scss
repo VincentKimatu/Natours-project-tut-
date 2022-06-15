@@ -29,3 +29,14 @@
   grid-template-columns: repeat(3, 1fr);
   column-gap: 4rem;
 }
+
+.row4 {
+  width: 80vw;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 1fr;
+
+  &:not(:last-child) {
+    margin-bottom: 6rem;
+  }
+}
