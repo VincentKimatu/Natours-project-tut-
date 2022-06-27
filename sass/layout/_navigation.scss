@@ -44,7 +44,6 @@
   }
 
   &__list {
-    position: absolute;
     @include center;
     list-style: none;
     text-align: center;
@@ -96,15 +95,13 @@
     font-size: 6rem;
     font-weight: 50;
     color: $color-primary;
-    position: absolute;
     @include center;
   }
 
   &__icon2 {
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 50;
     color: $color-primary;
-    position: absolute;
     @include center;
     visibility: hidden;
   }

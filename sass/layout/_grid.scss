@@ -40,3 +40,27 @@
     margin-bottom: 6rem;
   }
 }
+
+// POPUP
+.row5 {
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4rem;
+}
+
+.popup {
+  &__left {
+    grid-column: 1/2;
+  }
+
+  &__right {
+    grid-column: 2/4;
+    align-self: center;
+  }
+  &__text {
+    column-count: 2;
+    column-gap: 2rem;
+    column-rule: 1px solid $color-grey-light-2;
+  }
+}
